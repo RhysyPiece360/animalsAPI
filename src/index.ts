@@ -96,3 +96,9 @@ export const panda = async () => {
     (res) => res.body.link
   );
 };
+
+export const redpanda = async () => {
+  return getrequest("https://some-random-api.ml/img/red_panda").then(
+    (res) => res.body.link
+    );
+";
